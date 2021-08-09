@@ -18,7 +18,7 @@ function Table(props){
           <thead>
             <tr>
               <th scope="col">#</th>
-              <th scope="col">username</th>
+              <th scope="col">Name</th>
               <th scope="col">email</th>
               <th scope="col">Action</th>
             </tr>

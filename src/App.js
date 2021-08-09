@@ -3,6 +3,7 @@ import './App.css';
 import Table from './Table.js';
 import Header from './Header.js';
 import Footer from './Footer.js';
+import Modals from './Modals';
 
 var users = [
   {
@@ -13,7 +14,7 @@ var users = [
   {
     id: 2,
     name: "John Doe",
-    email: "skumarwebdev@gmail.com"
+    email: "johndoe@gmail.com"
   },
   {
     id: 3,
@@ -29,6 +30,7 @@ function App() {
         <Header />
         <Table users={users} />
         <Footer />
+        <Modals />
       </div>
     </div>
   );
