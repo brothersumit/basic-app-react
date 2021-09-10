@@ -14,13 +14,13 @@ class App extends React.Component {
       users: [
         {
           id: 1,
-          name: 'sumit kumar',
-          email: 'skumarwebdev@gmail.com'      
+          name: 'Mark',
+          email: 'mark@mailinator.com'      
         },
         {
           id: 2,
-          name: 'Deepak kumar',
-          email: 'deepakwebdev@gmail.com'      
+          name: 'John',
+          email: 'john@mailinator.com'      
         },
       ]
     }
