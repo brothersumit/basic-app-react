@@ -41,8 +41,9 @@ class App extends React.Component {
       name: event.target[0].value,
       email: event.target[1].value
     }
-    this.setState({users: [...this.state.users, newuser]});    
-    $("#addUserModal").hide();
+    this.setState({users: [...this.state.users, newuser]});
+    $("#addUserModal").css("display", "none");
+    $(".modal-backdrop ").css("display", "none");
   }
 
 
@@ -59,6 +60,7 @@ class App extends React.Component {
       </div>
     );
   }
+
 }
 
 export default App;
